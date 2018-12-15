@@ -1,5 +1,6 @@
 # Use the same global npm packages as bash.
 # Run "npm prefix -g" in bash first and modify below
+# Be sure to include bin
 # export PATH="$HOME/.npm-packages/bin:$PATH"
 
 # If you come from bash you might have to change your $PATH.
