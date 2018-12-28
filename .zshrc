@@ -72,6 +72,7 @@ plugins=(
   fasd
   fzf
   tmux
+  pyenv
   zsh-autosuggestions
 )
 
