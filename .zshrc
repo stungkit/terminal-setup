@@ -89,6 +89,7 @@ plugins=(
   tmux
   pyenv
   zsh-autosuggestions
+  nvm
 )
 
 source $ZSH/oh-my-zsh.sh
