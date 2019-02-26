@@ -9,6 +9,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/$(whoami)/.oh-my-zsh"
 
+
 # Path to virtualenv installation.
 export PATH=$HOME/.pyenv/shims:$PATH
 
