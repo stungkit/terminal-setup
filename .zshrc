@@ -12,11 +12,14 @@ export ZSH="/Users/$(whoami)/.oh-my-zsh"
 # Path to virtualenv installation.
 export PATH=$HOME/.pyenv/shims:$PATH
 
+# Uncomment below if you:
+# 1. Installed virtualenvwrapper
+# 2. Want to access virtualenvwrapper in .zshrc
 # virtualenvwrapper
-eval "$(pyenv init -)"
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-source /usr/local/bin/virtualenvwrapper.sh
+# eval "$(pyenv init -)"
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME=$HOME/Devel
+# source /usr/local/bin/virtualenvwrapper.sh
 
 # tmux always enable
 # source: https://unix.stackexchange.com/a/113768
