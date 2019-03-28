@@ -127,3 +127,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Displays the result of 'git diff' in the same terminal page
+export LESS=eFRX
