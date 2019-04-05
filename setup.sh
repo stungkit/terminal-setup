@@ -27,6 +27,9 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
+# Override .tmux.conf.local with our own configuration
+cp ${DIR}/.tmux.conf.local ~/.tmux.conf.local
+
 # This is to ensure that tmux uses the default shell
 # https://superuser.com/a/388243
 cmd='set-option -g default-shell $SHELL'
