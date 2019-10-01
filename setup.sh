@@ -15,10 +15,11 @@ brew install \
 # https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-# ultimate vimrc
-# https://github.com/amix/vimrc#install-for-your-own-user-only
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
+# my vimrc
+cd
+git clone https://github.com/stungkit/vimrc.git
+cd vimrc
+./setup.sh
 
 # Oh My Tmux!
 # https://github.com/gpakosz/.tmux
