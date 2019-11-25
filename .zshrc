@@ -130,3 +130,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Displays the result of 'git diff' in the same terminal page
 export LESS=eFRX
+
+# Use Ag for FZF
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
