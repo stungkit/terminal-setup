@@ -133,4 +133,5 @@ alias ll="ls -la"
 export LESS=eFRX
 
 # Use Ag for FZF
-export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
+export FZF_DEFAULT_COMMAND='rg --files --hidden'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
