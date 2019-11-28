@@ -9,7 +9,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 brew install \
   fasd \
   fzf \
-  tmux
+  tmux \
+  rg
 
 # zsh-autosuggestion
 # https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
