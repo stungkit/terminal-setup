@@ -10,7 +10,8 @@ brew install \
   fasd \
   fzf \
   tmux \
-  rg
+  rg \
+  ctags
 
 # zsh-autosuggestion
 # https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
