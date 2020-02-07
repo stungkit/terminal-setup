@@ -148,3 +148,6 @@ export FZF_DEFAULT_OPTS='
 
 # Use brew ctags instead of default
 alias ctags="`brew --prefix`/bin/ctags"
+
+# Use brew vim
+alias vim="/usr/local/bin/vim"
