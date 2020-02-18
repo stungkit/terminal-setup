@@ -93,6 +93,7 @@ plugins=(
   pyenv
   zsh-autosuggestions
   nvm
+  rbenv
 )
 
 source $ZSH/oh-my-zsh.sh
