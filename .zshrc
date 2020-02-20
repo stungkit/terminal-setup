@@ -127,6 +127,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="ls -la"
+alias git-squash="git reset --soft $(git merge-base HEAD master)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
