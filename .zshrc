@@ -152,3 +152,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 
 # Use brew vim
 alias vim="/usr/local/bin/vim"
+
+# Code review
+# Use REVIEW_BASE="master" for local master
+export REVIEW_BASE="origin/master"
