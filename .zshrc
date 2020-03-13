@@ -156,3 +156,7 @@ alias vim="/usr/local/bin/vim"
 # Code review
 # Use REVIEW_BASE="master" for local master
 export REVIEW_BASE="origin/master"
+
+# golang
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
