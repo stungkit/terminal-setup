@@ -12,7 +12,10 @@ brew install \
   tmux \
   rg \
   ctags \
-  vim
+  vim \
+  ack \
+  ag \
+  --HEAD universal-ctags/universal-ctags/universal-ctags
 
 # zsh-autosuggestion
 # https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
