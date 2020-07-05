@@ -160,3 +160,11 @@ export REVIEW_BASE="origin/master"
 # golang
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
+
+# git-completion
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi

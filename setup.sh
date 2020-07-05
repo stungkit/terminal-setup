@@ -15,6 +15,7 @@ brew install \
   vim \
   ack \
   ag \
+  zsh-completion \
   --HEAD universal-ctags/universal-ctags/universal-ctags
 
 # zsh-autosuggestion
