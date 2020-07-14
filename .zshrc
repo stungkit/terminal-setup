@@ -168,3 +168,6 @@ if type brew &>/dev/null; then
   autoload -Uz compinit
   compinit
 fi
+
+# bins
+export PATH="$HOME/bin:$PATH"
