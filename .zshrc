@@ -19,6 +19,7 @@ export PATH=$HOME/.pyenv/shims:$PATH
 # eval "$(pyenv init -)"
 # export WORKON_HOME=$HOME/.virtualenvs
 # export PROJECT_HOME=$HOME/Devel
+# # Specify the python path that has virtualenvwrapper installed
 # export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 # source /usr/local/bin/virtualenvwrapper.sh
 
