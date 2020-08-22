@@ -14,10 +14,10 @@ brew install \
   fzf \
   tmux \
   rg \
-  ctags \
   vim \
   ack \
   ag \
+  vim \
   zsh-completion \
   --HEAD universal-ctags/universal-ctags/universal-ctags
 
