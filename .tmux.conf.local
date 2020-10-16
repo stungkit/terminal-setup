@@ -181,11 +181,11 @@ tmux_conf_theme_right_separator_sub='|'
 tmux_conf_theme_status_left=''
 tmux_conf_theme_status_right=''
 
-# automatically set window names to current directory		
-set-option -g status-interval 5		
-set-option -g automatic-rename on		
-set-option -g automatic-rename-format '#{b:pane_current_path}'		
-# automatically set window names to full path		
+# automatically set window names to current directory
+set-option -g status-interval 5
+set-option -g automatic-rename on
+set-option -g automatic-rename-format '#{b:pane_current_path}'
+# automatically set window names to full path
 # set -g automatic-rename-format '#{pane_current_path}'
 
 # status left style
@@ -319,3 +319,5 @@ bind-key -T copy-mode-vi 'C-j' select-pane -D
 bind-key -T copy-mode-vi 'C-k' select-pane -U
 bind-key -T copy-mode-vi 'C-l' select-pane -R
 bind-key -T copy-mode-vi 'C-\' select-pane -l
+set-window-option -g mode-keys vi
+set-option -g default-shell $SHELL
