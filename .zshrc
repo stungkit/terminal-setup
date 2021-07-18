@@ -163,10 +163,6 @@ export REVIEW_BASE="origin/master"
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
-# rg
-# Search hidden folders by default
-alias rg="rg --hidden --glob '!.git'"
-
 # git-completion
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
