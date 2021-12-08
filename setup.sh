@@ -41,3 +41,7 @@ echo "${cmd}" >> ~/.tmux.conf.local
 
 # Copy over .zshrc
 cp ${DIR}/.zshrc ~/.zshrc
+
+# Fix zsh compinit: insecure directories
+# https://stackoverflow.com/a/22753363
+compaudit | xargs chmod g-w
