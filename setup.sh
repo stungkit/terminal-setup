@@ -10,7 +10,6 @@ brew install \
   vim \
   ack \
   ag \
-  vim \
   zsh-completion \
   --HEAD universal-ctags/universal-ctags/universal-ctags
 
