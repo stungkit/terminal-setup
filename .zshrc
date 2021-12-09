@@ -153,7 +153,7 @@ export FZF_DEFAULT_OPTS='
 alias ctags="`brew --prefix`/bin/ctags"
 
 # Use brew vim
-alias vim="/usr/local/bin/vim"
+# alias vim="/usr/local/bin/vim"
 
 # Code review
 # Use REVIEW_BASE="master" for local master
