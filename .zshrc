@@ -159,6 +159,11 @@ alias ctags="`brew --prefix`/bin/ctags"
 # Use REVIEW_BASE="master" for local master
 export REVIEW_BASE="origin/master"
 
+# Need for react-snap
+# https://github.com/puppeteer/puppeteer/issues/6622#issuecomment-787912758
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=`which chromium`
+
 # golang
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
