@@ -176,10 +176,31 @@ if type brew &>/dev/null; then
   compinit
 fi
 
-# nvm
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-# [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+alias ssh-odin='ssh -f -N -L 2009:localhost:2009 tungsmat@tungsmat.aka.corp.amazon.com'
+alias bb='brazil-build'
 
 # bins
 export PATH="$HOME/bin:$PATH"
+export PATH=$HOME/.toolbox/bin:$PATH
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-18.jdk/Contents/Home
+export JDTLS_HOME=~/.local/share/nvim/mason/packages/jdtls
+
+export PATH=$HOME/android_sdk/tools/bin:$PATH
+
+export ANDROID_SDK=$HOME/Library/Android/sdk
+export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
+
+export ANDROID_SDK_ROOT=$ANDROID_SDK
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completionVk
+
+# android
+export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export ANDROID_SDK_HOME=/Users/$USER/Library/Android/sdk
+export ANDROID_AVD_HOME=/Users/$USER/.android/avd
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_AVD_HOME
+
+eval "$(rbenv init -)"
+export JAVA_TOOLS_OPTIONS="-Dlog4j2.formatMsgNoLookups=true"
