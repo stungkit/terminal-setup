@@ -181,5 +181,9 @@ fi
 # [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 # [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
+# java
+# Use android studio java
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/Contents/Home"
+
 # bins
 export PATH="$HOME/bin:$PATH"
