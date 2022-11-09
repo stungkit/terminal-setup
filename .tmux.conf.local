@@ -324,6 +324,8 @@ set-option -g default-shell $SHELL
 
 # https://gist.github.com/william8th/faf23d311fc842be698a1d80737d9631
 # Set new panes to open in current directory
-bind c new-window -c "#{pane_current_path}"
-bind '"' split-window -c "#{pane_current_path}"
-bind % split-window -h -c "#{pane_current_path}"
+# Do note the '#!important' since we want the binding to take precedent over Oh my tmux! binding:
+# https://github.com/gpakosz/.tmux/issues/571#issuecomment-1184599903
+bind c new-window -c "#{pane_current_path}" #!important
+bind '"' split-window -c "#{pane_current_path}" #!important
+bind % split-window -h -c "#{pane_current_path}" #!important
