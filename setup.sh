@@ -6,7 +6,7 @@ brew install \
   fasd \
   fzf \
   tmux \
-  rg \
+  ripgrep \
   vim \
   ack \
   ag \
