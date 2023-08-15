@@ -19,10 +19,10 @@ brew install \
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # my vimrc
-cd
-git clone https://github.com/stungkit/vimrc.git
-cd vimrc
-./setup.sh
+# cd
+# git clone https://github.com/stungkit/nvim.git
+# cd vimrc
+# ./setup.sh
 
 # Oh My Tmux!
 # https://github.com/gpakosz/.tmux
