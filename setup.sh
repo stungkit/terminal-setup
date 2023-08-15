@@ -10,6 +10,7 @@ brew install \
   vim \
   ack \
   ag \
+  rbenv \
   pyenv-virtualenvwrapper \
   zsh-completion \
   --HEAD universal-ctags/universal-ctags/universal-ctags
