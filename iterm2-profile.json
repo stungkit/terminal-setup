@@ -1,6 +1,6 @@
 {
-  "Ansi 0 Color" : {
-    "Green Component" : 0,
+  "Ansi 2 Color" : {
+    "Green Component" : 0.73333334922790527,
     "Red Component" : 0,
     "Blue Component" : 0
   },
@@ -12,20 +12,20 @@
     "Red Component" : 0.3333333432674408,
     "Blue Component" : 1
   },
-  "Normal Font" : "Monaco 18",
-  "Ansi 1 Color" : {
+  "Normal Font" : "HackNFM-Regular 18",
+  "Ansi 4 Color" : {
     "Green Component" : 0,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0
+    "Red Component" : 0,
+    "Blue Component" : 0.73333334922790527
   },
   "Bold Color" : {
     "Green Component" : 1,
     "Red Component" : 1,
     "Blue Component" : 1
   },
-  "Horizontal Spacing" : 1,
-  "Ansi 4 Color" : {
-    "Green Component" : 0,
+  "Right Option Key Sends" : 0,
+  "Ansi 6 Color" : {
+    "Green Component" : 0.73333334922790527,
     "Red Component" : 0,
     "Blue Component" : 0.73333334922790527
   },
@@ -278,7 +278,7 @@
     "Red Component" : 0.3333333432674408,
     "Blue Component" : 1
   },
-  "Name" : "Default",
+  "Name" : "iterm2-profile.json",
   "Cursor Text Color" : {
     "Green Component" : 1,
     "Red Component" : 1,
@@ -291,24 +291,24 @@
     "Blue Component" : 0.73333334922790527
   },
   "Transparency" : 0,
-  "Guid" : "59E93D3C-531E-4876-8786-EDB992B6D90A",
-  "Ansi 2 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0,
+  "Ansi 1 Color" : {
+    "Green Component" : 0,
+    "Red Component" : 0.73333334922790527,
     "Blue Component" : 0
   },
+  "Custom Directory" : "No",
   "Ansi 3 Color" : {
     "Green Component" : 0.73333334922790527,
     "Red Component" : 0.73333334922790527,
     "Blue Component" : 0
   },
-  "Custom Directory" : "No",
-  "Right Option Key Sends" : 0,
-  "Ansi 6 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0,
+  "Horizontal Spacing" : 1,
+  "Ansi 5 Color" : {
+    "Green Component" : 0,
+    "Red Component" : 0.73333334922790527,
     "Blue Component" : 0.73333334922790527
   },
+  "Use Non-ASCII Font" : false,
   "Ansi 7 Color" : {
     "Green Component" : 0.73333334922790527,
     "Red Component" : 0.73333334922790527,
@@ -324,10 +324,10 @@
     "Red Component" : 1,
     "Blue Component" : 0.3333333432674408
   },
-  "Ansi 5 Color" : {
+  "Ansi 0 Color" : {
     "Green Component" : 0,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527
+    "Red Component" : 0,
+    "Blue Component" : 0
   },
-  "Use Non-ASCII Font" : false
+  "Guid" : "59E93D3C-531E-4876-8786-EDB992B6D90A"
 }
