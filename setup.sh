@@ -13,7 +13,11 @@ brew install \
   rbenv \
   pyenv-virtualenvwrapper \
   zsh-completion \
-  --HEAD universal-ctags/universal-ctags/universal-ctags
+
+# ctags
+# https://github.com/ludovicchabant/vim-gutentags/issues/295#issuecomment-821886487
+brew tap universal-ctags/universal-ctags
+brew install --HEAD universal-ctags
 
 # zsh-autosuggestion
 # https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
