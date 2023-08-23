@@ -199,6 +199,7 @@ export ANDROID_SDK_ROOT=$ANDROID_SDK
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completionVk
+source $(brew --prefix nvm)/nvm.sh
 
 # android
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
