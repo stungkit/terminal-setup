@@ -219,3 +219,10 @@ eval "$(zoxide init zsh)"
 # Run the init flag here and copy the command here
 # https://github.com/ajeetdsouza/zoxide#flags
 \builtin alias j=__zoxide_zi
+
+# git
+alias gp='git push'
+alias gps='git push share'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gam='git commit -am'
