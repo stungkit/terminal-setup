@@ -7,7 +7,7 @@ brew install \
   fzf \
   tmux \
   ripgrep \
-  vim \
+  neovim \
   ack \
   ag \
   rbenv \
