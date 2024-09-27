@@ -13,6 +13,7 @@ brew install \
   rbenv \
   pyenv-virtualenvwrapper \
   zsh-completion \
+  difftastic
 
 # ctags
 # https://github.com/ludovicchabant/vim-gutentags/issues/295#issuecomment-821886487
