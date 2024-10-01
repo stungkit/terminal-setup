@@ -38,4 +38,3 @@
 	required = true
 [diff]
         tool = nvimdiff
-        external = difft
