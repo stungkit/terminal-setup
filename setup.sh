@@ -51,3 +51,10 @@ cp ${DIR}/.zshrc ~/.zshrc
 # Fix zsh compinit: insecure directories
 # https://stackoverflow.com/a/22753363
 compaudit | xargs chmod g-w
+
+# .gitconfig
+cp ${DIR}/.gitconfig ~/.gitconfig
+
+# .gitignore
+cp ${DIR}/.gitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global

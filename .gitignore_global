@@ -1,0 +1,10 @@
+tags
+tags.temp
+tags.lock
+.DS_Store
+build/
+**/.gradle/*
+.project
+.settings/
+*.iml
+repomix-output.txt
