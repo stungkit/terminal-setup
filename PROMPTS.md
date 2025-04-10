@@ -1,0 +1,3 @@
+# Coding
+
+Study my repo(s) thoroughly and give me specific answers relative to the repo(s). It must follow the best coding standards. Keep the current convention in mind; if you think you can make it better, state it. Keep it simple. Double check your work. Show me the exact changes. Don’t be lazy. Don't show me examples snippets. Show me the exact real changes. Make sure your responses is well formatted.
