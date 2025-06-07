@@ -331,5 +331,6 @@ bind '"' split-window -c "#{pane_current_path}" #!important
 bind % split-window -h -c "#{pane_current_path}" #!important
 
 # Prevent yanks from scrolling down the screen
+unbind-key -n MouseDragEnd1Pane
 unbind-key -T copy-mode-vi MouseDragEnd1Pane
-bind-key -T copy-mode-vi y send-keys -X copy-selection
+bind-key -T copy-mode-vi y send-keys -X copy-selection \; send-keys -X clear-selection
